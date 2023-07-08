@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Interface_HeartFull
+  - Interface_HeartEmpty
+  - Interface_HeartHalf
+  - Player_Projectile
+  - Item
+  - GameControl
+  - Scenery
+  - BorderRocks
+  - StoreWeaponButton
+  - StoreExitButton
+  - Chest
+  - TalentBackground
+  - TalentSelect
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Scenery
+  - Water
+  - UI
+  - Entities
+  - DroppedItems
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 81273085
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Trees/Bushes
+    uniqueID: 2208149399
+    locked: 0
+  - name: UI
+    uniqueID: 1146718379
+    locked: 0
+  - name: MenuBackground
+    uniqueID: 793139125
+    locked: 0
+  - name: Menu
+    uniqueID: 2099505215
+    locked: 0

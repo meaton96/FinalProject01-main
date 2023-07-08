@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6818039823857928200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6818039823857928206}
+  - component: {fileID: 6818039823857928201}
+  - component: {fileID: 6818039823857928207}
+  m_Layer: 0
+  m_Name: TalentTree
+  m_TagString: TalentBackground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6818039823857928206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6818039823857928200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 37.37521, y: 31.83488, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6818039823857928201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6818039823857928200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3123d77726d9fa643bc759721f6652e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talentButtonSprites:
+  - {fileID: 21300000, guid: f9b5981f655c2c7448fcd034963bdc07, type: 3}
+  - {fileID: 21300000, guid: 4f346187ac3cc394b8e648535aedd780, type: 3}
+  - {fileID: 21300000, guid: 3ebc3ffe7182f814c9a448b840d838b0, type: 3}
+  - {fileID: 21300000, guid: 2ac8844ea3825aa45b4cb1ce27a1f879, type: 3}
+  - {fileID: 21300000, guid: 34d50c3584322da40b496babc19466e1, type: 3}
+  - {fileID: 21300000, guid: 8bd8634a4272a044199cbff325cb8f2b, type: 3}
+  - {fileID: 21300000, guid: 09dbee13113e7164296a609bb50bb790, type: 3}
+  - {fileID: 21300000, guid: 621631a74dd04bb4c8de64624994bebb, type: 3}
+  - {fileID: 21300000, guid: 7b8e1a7a1b3e88a4f9e095f95c0fdb94, type: 3}
+  - {fileID: 21300000, guid: 0c2749112fafdf047a1c7dc667b92f0c, type: 3}
+  - {fileID: 21300000, guid: c85ca5a6cec8f1145aa7b40442116e85, type: 3}
+  - {fileID: 21300000, guid: 72f3952fc863c064eba29e00ebcc86f7, type: 3}
+  - {fileID: 21300000, guid: 5c3c8c71a18edf14dbf3456613759a6c, type: 3}
+  - {fileID: 21300000, guid: 84c818e99438a8a4da8f76cb76a33fd2, type: 3}
+  - {fileID: 21300000, guid: 82337cdef46a1934f816b1539b5d81da, type: 3}
+  - {fileID: 21300000, guid: b3f7e63e549355442bc38c359423d338, type: 3}
+  talentObjectPreFab: {fileID: 6710813894546819266, guid: 9fd113af7e8d8ff48a06de32e066115d, type: 3}
+  coinText: {fileID: 0}
+  leftBracket: {fileID: 2245701540161841193, guid: ddef0310567efe74f90bc48a0ee17ad7, type: 3}
+  rightBracket: {fileID: 3852416934883569766, guid: a4d5ce9072b37a74d80bcec383bd2e96, type: 3}
+--- !u!61 &6818039823857928207
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6818039823857928200}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5, y: 5}
+  m_EdgeRadius: 0
